@@ -1,4 +1,4 @@
-# Clone from the Fedora 23 image
+# Clone from the Fedora 32 image
 FROM fedora:32
 
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
