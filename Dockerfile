@@ -1,5 +1,5 @@
 # Clone from the Fedora 32 image
-FROM docker.io/pravinmali/fedora:32 
+FROM pravinmali/fedora:32
 
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
 
