@@ -1,5 +1,5 @@
 # Clone from the Fedora 23 image
-FROM fedora:23
+FROM fedora:32
 
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
 
