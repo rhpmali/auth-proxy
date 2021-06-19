@@ -1,5 +1,5 @@
 # Clone from the Fedora 32 image
-FROM quay.io/fedora/fedora:32-x86_64
+FROM quay.io/rhpmali/fedora23:latest
 
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
 
