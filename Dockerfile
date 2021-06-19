@@ -1,5 +1,5 @@
 # Clone from the Fedora 32 image
-FROM pravinmali/fedora:32
+FROM quay.io/fedora/fedora:32-x86_64
 
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
 
