@@ -4,7 +4,7 @@ FROM quay.io/rhpmali/fedora23:latest
 MAINTAINER Jordan Liggitt <jliggitt@redhat.com>
 
 # Install Kerberos, mod_auth_kerb
-RUN dnf clean all && dnf update --releasever=23; dnf clean metadata; dnf install -y \
+RUN yum install -y \
   apr-util-openssl \
   authconfig \
   httpd \
