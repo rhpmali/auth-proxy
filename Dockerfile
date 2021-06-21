@@ -44,4 +44,5 @@ ADD logout.php /var/www/html/logout/index.php
 EXPOSE 80 443 88 88/udp
 
 ADD configure /usr/sbin/configure
+USER root
 ENTRYPOINT /usr/sbin/configure
