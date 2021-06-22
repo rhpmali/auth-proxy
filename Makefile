@@ -1,5 +1,6 @@
 NAME = liggitt/auth-proxy
 VERSION = 0.1.0
+$(shell ./configure)
 
 .PHONY: all build test tag_latest release
 
