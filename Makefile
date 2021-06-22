@@ -17,9 +17,9 @@ ifndef BACKEND
 endif
 ifndef PROXY_HOST
 	@echo '$$(PROXY_HOST) is not defined, using auth.example.com'
-	docker run --privileged -p 80:80 -p 88:88 -p 88:88/udp -p 443:443 -h auth.example.com -v /dev/urandom:/dev/random -e BACKEND=$(BACKEND) -ti $(NAME)
+	docker run --privileged -p 80:80 -p 88:88 -p 88:88/udp -p 443:443 -h auth.example.com -v /dev/urandom:/dev/random -e BACKEND=$(BACKEND) -ti $(NAME) sleep 365d
 else
-	docker run --privileged -p 80:80 -p 88:88 -p 88:88/udp -p 443:443 -h $(PROXY_HOST) -v /dev/urandom:/dev/random -e BACKEND=$(BACKEND) -ti $(NAME)
+	docker run --privileged -p 80:80 -p 88:88 -p 88:88/udp -p 443:443 -h $(PROXY_HOST) -v /dev/urandom:/dev/random -e BACKEND=$(BACKEND) -ti $(NAME) sleep 365d
 endif
 
 tag_latest:
