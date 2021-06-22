@@ -1,15 +1,6 @@
 NAME = liggitt/auth-proxy
 VERSION = 0.1.0
 
-.PHONY: do_script
-
-do_script: 
-    configure.sh
-    
-prerequisites: do_script
-
-target: prerequisites 
-
 .PHONY: all build test tag_latest release
 
 all: build tag_latest
